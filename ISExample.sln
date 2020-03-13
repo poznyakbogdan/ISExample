@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthServer", "AuthServer\AuthServer.csproj", "{BBDDCA16-4477-4873-B336-B1FBDFBA8636}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientApp", "ClientApp\ClientApp.csproj", "{5509195F-5686-4DC0-A51F-E79114CFACD6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBDDCA16-4477-4873-B336-B1FBDFBA8636}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBDDCA16-4477-4873-B336-B1FBDFBA8636}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBDDCA16-4477-4873-B336-B1FBDFBA8636}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBDDCA16-4477-4873-B336-B1FBDFBA8636}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5509195F-5686-4DC0-A51F-E79114CFACD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5509195F-5686-4DC0-A51F-E79114CFACD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5509195F-5686-4DC0-A51F-E79114CFACD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5509195F-5686-4DC0-A51F-E79114CFACD6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

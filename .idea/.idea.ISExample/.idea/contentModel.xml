@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\b.poznyak\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\b.poznyak\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_ISExample.1214158469.00" t="ExcludeRecursive" />
+    <e p="C:\Users\b.poznyak\RiderProjects\ISExample" t="IncludeFlat">
+      <e p="AuthServer" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="AuthServer.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Clients.cs" t="Include" />
+        <e p="Controllers" t="Include">
+          <e p="WeatherForecastController.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="AuthServer.AssemblyInfo.cs" t="Include" />
+              <e p="AuthServer.RazorAssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include" />
+        <e p="Quickstart" t="Include">
+          <e p="Account" t="Include">
+            <e p="AccountController.cs" t="Include" />
+            <e p="AccountOptions.cs" t="Include" />
+            <e p="ExternalController.cs" t="Include" />
+            <e p="ExternalProvider.cs" t="Include" />
+            <e p="LoggedOutViewModel.cs" t="Include" />
+            <e p="LoginInputModel.cs" t="Include" />
+            <e p="LoginViewModel.cs" t="Include" />
+            <e p="LogoutInputModel.cs" t="Include" />
+            <e p="LogoutViewModel.cs" t="Include" />
+            <e p="RedirectViewModel.cs" t="Include" />
+          </e>
+          <e p="Consent" t="Include">
+            <e p="ConsentController.cs" t="Include" />
+            <e p="ConsentInputModel.cs" t="Include" />
+            <e p="ConsentOptions.cs" t="Include" />
+            <e p="ConsentViewModel.cs" t="Include" />
+            <e p="ProcessConsentResult.cs" t="Include" />
+            <e p="ScopeViewModel.cs" t="Include" />
+          </e>
+          <e p="Device" t="Include">
+            <e p="DeviceAuthorizationInputModel.cs" t="Include" />
+            <e p="DeviceAuthorizationViewModel.cs" t="Include" />
+            <e p="DeviceController.cs" t="Include" />
+          </e>
+          <e p="Diagnostics" t="Include">
+            <e p="DiagnosticsController.cs" t="Include" />
+            <e p="DiagnosticsViewModel.cs" t="Include" />
+          </e>
+          <e p="Extensions.cs" t="Include" />
+          <e p="Grants" t="Include">
+            <e p="GrantsController.cs" t="Include" />
+            <e p="GrantsViewModel.cs" t="Include" />
+          </e>
+          <e p="Home" t="Include">
+            <e p="ErrorViewModel.cs" t="Include" />
+            <e p="HomeController.cs" t="Include" />
+          </e>
+          <e p="SecurityHeadersAttribute.cs" t="Include" />
+          <e p="TestUsers.cs" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="tempkey.rsa" t="Include" />
+        <e p="Views" t="Include">
+          <e p="_ViewImports.cshtml" t="Include" />
+          <e p="_ViewStart.cshtml" t="Include" />
+          <e p="Account" t="Include">
+            <e p="AccessDenied.cshtml" t="Include" />
+            <e p="LoggedOut.cshtml" t="Include" />
+            <e p="Login.cshtml" t="Include" />
+            <e p="Logout.cshtml" t="Include" />
+          </e>
+          <e p="Consent" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="Device" t="Include">
+            <e p="Success.cshtml" t="Include" />
+            <e p="UserCodeCapture.cshtml" t="Include" />
+            <e p="UserCodeConfirmation.cshtml" t="Include" />
+          </e>
+          <e p="Diagnostics" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="Grants" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="Home" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="Shared" t="Include">
+            <e p="_Layout.cshtml" t="Include" />
+            <e p="_ScopeListItem.cshtml" t="Include" />
+            <e p="_ValidationSummary.cshtml" t="Include" />
+            <e p="Error.cshtml" t="Include" />
+            <e p="Redirect.cshtml" t="Include" />
+          </e>
+        </e>
+        <e p="WeatherForecast.cs" t="Include" />
+        <e p="wwwroot" t="Include">
+          <e p="css" t="Include">
+            <e p="site.css" t="Include" />
+            <e p="site.less" t="Include" />
+            <e p="site.min.css" t="Include" />
+          </e>
+          <e p="favicon.ico" t="Include" />
+          <e p="icon.jpg" t="Include" />
+          <e p="icon.png" t="Include" />
+          <e p="js" t="Include">
+            <e p="signin-redirect.js" t="Include" />
+            <e p="signout-redirect.js" t="Include" />
+          </e>
+          <e p="lib" t="Include">
+            <e p="bootstrap" t="Include">
+              <e p="css" t="Include">
+                <e p="bootstrap.css" t="Include" />
+                <e p="bootstrap.css.map" t="Include" />
+                <e p="bootstrap.min.css" t="Include" />
+              </e>
+              <e p="fonts" t="Include">
+                <e p="glyphicons-halflings-regular.eot" t="Include" />
+                <e p="glyphicons-halflings-regular.svg" t="Include" />
+                <e p="glyphicons-halflings-regular.ttf" t="Include" />
+                <e p="glyphicons-halflings-regular.woff" t="Include" />
+                <e p="glyphicons-halflings-regular.woff2" t="Include" />
+              </e>
+              <e p="js" t="Include">
+                <e p="bootstrap.js" t="Include" />
+                <e p="bootstrap.min.js" t="Include" />
+              </e>
+            </e>
+            <e p="jquery" t="Include">
+              <e p="jquery.js" t="Include" />
+              <e p="jquery.min.js" t="Include" />
+              <e p="jquery.min.map" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="ClientApp" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ClientApp.csproj" t="IncludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="WeatherForecastController.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="ClientApp.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="WeatherForecast.cs" t="Include" />
+      </e>
+      <e p="ISExample.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
