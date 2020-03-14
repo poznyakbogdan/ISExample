@@ -15,16 +15,32 @@ namespace AuthServer
                     ClientId = "openIdConnectClient",
                     ClientName = "Example Implicit Client Application",
                     AllowedGrantTypes = GrantTypes.Implicit,
+                    AllowAccessTokensViaBrowser = true,
                     AllowedScopes = new List<string>
                     {
                         IdentityServerConstants.StandardScopes.OpenId,
                         IdentityServerConstants.StandardScopes.Profile,
                         IdentityServerConstants.StandardScopes.Email,
-                        "role",
+                        "customAPI.role",
                         "customAPI.write"
                     },
                     RedirectUris = new List<string> {"https://localhost:44330/signin-oidc"},
                     PostLogoutRedirectUris = new List<string> {"https://localhost:44330"}
+                },
+                new Client {
+                    ClientId = "demo_api_swagger",
+                    ClientName = "Swagger UI for demo_api",
+                    AllowedGrantTypes = GrantTypes.Implicit,
+                    AllowAccessTokensViaBrowser = true,
+                    RedirectUris = {"https://localhost:44330/oauth2-redirect.html"},
+                    AllowedScopes = new List<string>
+                    {
+                        IdentityServerConstants.StandardScopes.OpenId,
+                        IdentityServerConstants.StandardScopes.Profile,
+                        IdentityServerConstants.StandardScopes.Email,
+                        "customAPI.role",
+                        "customAPI.write"
+                    }
                 }
             };
         }
@@ -53,7 +69,8 @@ namespace AuthServer
                     ApiSecrets = new List<Secret> {new Secret("scopeSecret".Sha256())},
                     Scopes = new List<Scope> {
                         new Scope("customAPI.read"),
-                        new Scope("customAPI.write")
+                        new Scope("customAPI.write"),
+                        new Scope("customAPI.role"),
                     }
                 }
             };

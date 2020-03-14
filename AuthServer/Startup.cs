@@ -24,17 +24,17 @@ namespace AuthServer
 
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
-            services.AddMvc(options => { options.EnableEndpointRouting = false; });
+            services.AddControllersWithViews();
             services.AddIdentityServer()
                 .AddInMemoryClients(Clients.Get())
                 .AddInMemoryIdentityResources(Resources.GetIdentityResources())
                 .AddInMemoryApiResources(Resources.GetApiResources())
                 .AddTestUsers(Users.Get())
                 .AddDeveloperSigningCredential();
+            services.AddCors(x =>
+                x.AddPolicy("allowAny", builder => builder.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin()));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -44,20 +44,13 @@ namespace AuthServer
             {
                 app.UseDeveloperExceptionPage();
             }
-
             app.UseHttpsRedirection();
-            
+            app.UseCors("allowAny");
             app.UseIdentityServer();
+            app.UseRouting();
             app.UseStaticFiles();
-            app.UseMvcWithDefaultRoute();
-            
-            // 
-            // app.UseMvc();
-            // app.UseRouting();
-            //
-            // app.UseAuthorization();
-            //
-            // app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
+            app.UseAuthorization();
+            app.UseEndpoints(endpoints => { endpoints.MapDefaultControllerRoute(); });
         }
     }
 }
